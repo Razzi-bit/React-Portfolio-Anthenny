@@ -1,0 +1,110 @@
+[
+  {
+    "projectId": 1,
+    "projectImage": "Projects/Annasaccessoires.jpg",
+    "projectImage1": "Projects/Annasaccessoires.jpg",
+    "projectName": "Anna's accessoires | Typescript, Next JS, Node JS",
+    "projectLink": "/project/1",
+    "projectGithubLink": "/",
+    "projectLiveLink": "https://github.com/",
+    "projectDescription": "Ik heb dit project gemaakt voor mijn voormalige stage bedrijf. Het bedrijf organiseerde elke maand een TechNight hiervoor wilden ze graag stand hebben met daarin een tablet zodat mensen zich konden aanmelden voor de volgende TechNight. Daarnaast moest het salesteam het makkelijk kunnen gebruiken dus heb ik er een admin panel bijgemaakt. De app wordt op dit moment nog gebruikt door de organisatie, om deze reden zit er een uitgebreide READ.me bij.",
+    "projectLanguage": [
+      "Next js",
+      "Typescript",
+      "Node js",
+      "Styled components",
+      "Docker",
+      "Mongoose",
+      "Nodemailer",
+      "MVC Architectuur"
+    ]
+  },
+  {
+    "projectId": 2,
+    "projectImage": "Projects/Developer.jpg",
+    "projectImage1": "Projects/Developer.jpg",
+    "projectName": "Mobiele app & Admin panel | MERN, Typescript, Adobe XD",
+    "projectLink": "/project/2",
+    "projectGithubLink": "https://github.com/Anthenny/TechnightApp",
+    "projectLiveLink": "",
+    "projectDescription": "Ik heb dit project gemaakt voor mijn voormalige stage bedrijf. Het bedrijf organiseerde elke maand een TechNight hiervoor wilden ze graag een stand hebben met daarin een tablet zodat mensen zich konden aanmelden voor de volgende TechNight. Daarnaast moest het salesteam het makkelijk kunnen gebruiken dus heb ik er een admin panel bijgemaakt.",
+    "projectLanguage": [
+      "React JS",
+      "React Native",
+      "Typescript",
+      "Node JS",
+      "Docker",
+      "Scss",
+      "Mongoose",
+      "Nodemailer",
+      "Adobe XD",
+      "MVC Architectuur"
+    ]
+  },
+  {
+    "projectId": 3,
+    "projectImage": "Projects/Formidable.jpg",
+    "projectImage1": "Projects/Formidable1.jpg",
+    "projectName": "Fictief restaurant | React JS",
+    "projectLink": "/project/3",
+    "projectGithubLink": "https://github.com/Anthenny/formidable",
+    "projectLiveLink": "",
+    "projectDescription": "Ik heb in dit project gewerkt aan mijn frontend vaardigheden. Ik heb in dit project mooie layouts gemaakt en een aantrekkelijk eind resultaat neer weten te zetten.",
+    "projectLanguage": ["React JS", "Adobe XD", "CSS"]
+  },
+  {
+    "projectId": 4,
+    "projectImage": "Projects/Laragigs.png",
+    "projectImage1": "Projects/Laragigs.png",
+    "projectName": "Blog website | Laravel",
+    "projectLink": "/project/4",
+    "projectGithubLink": "https://github.com/Anthenny/Laragigs",
+    "projectLiveLink": "",
+    "projectDescription": "Ik heb dit project gemaakt voor mijn voormalige stage bedrijf. Het bedrijf organiseerde elke maand een TechNight hiervoor wilden ze graag stand hebben met daarin een tablet zodat mensen zich konden aanmelden voor de volgende TechNight. Daarnaast moest het salesteam het makkelijk kunnen gebruiken dus heb ik er een admin panel bijgemaakt.",
+    "projectLanguage": ["Laravel", "MySQL", "Blade", "CSS", "Apache", "MVC Architectuur"]
+  },
+  {
+    "projectId": 5,
+    "projectImage": "Projects/Laragigs.png",
+    "projectImage1": "Projects/Laragigs.png",
+    "projectName": "Dashboard | Laravel",
+    "projectLink": "/project/4",
+    "projectGithubLink": "https://github.com/Anthenny/Laravel-react-full-stack",
+    "projectLiveLink": "",
+    "projectDescription": "Ik heb dit project gemaakt voor mijn voormalige stage bedrijf. Het bedrijf organiseerde elke maand een TechNight hiervoor wilden ze graag stand hebben met daarin een tablet zodat mensen zich konden aanmelden voor de volgende TechNight. Daarnaast moest het salesteam het makkelijk kunnen gebruiken dus heb ik er een admin panel bijgemaakt.",
+    "projectLanguage": ["Laravel", "MySQL", "Blade", "CSS", "Apache", "MVC Architectuur"]
+  },
+  {
+    "projectId": 6,
+    "projectImage": "Projects/Netflix.jpg",
+    "projectImage1": "Projects/netflix-2.png",
+    "projectName": "Netflix Clone | MERN",
+    "projectLink": "/project/4",
+    "projectGithubLink": "https://github.com/Anthenny/mernnetflix",
+    "projectLiveLink": "",
+    "projectDescription": "In dit project heb ik een Netflix clone gemaakt. In deze web applicatie heb ik gebruik gemaakt de MERN stack en het MVC architectuur. Daarnaast kan je op de applicatie inloggen, registreren door alle films sliden zodra je bent ingelogd.",
+    "projectLanguage": ["React JS", "Node JS", "Express", "Mongoose", "MVC Architectuur"]
+  },
+  {
+    "projectId": 7,
+    "projectImage": "Projects/Ecommerce-2.png",
+    "projectImage1": "Projects/ecommerce-1.png",
+    "projectName": "Ecommerce | MERN",
+    "projectLink": "/project/4",
+    "projectGithubLink": "https://github.com/Anthenny/EcommerceMERN",
+    "projectLiveLink": "",
+    "projectDescription": "In dit project heb ik een volledg werkende ecommerse website gemaakt. Op de website kunnen producten worden gezocht, gesorteerd worden, er wordt gebruik gemaakt van sessies, coockies, beveiligde routes en natuurlijk kan er betaald worden met behulp van Stripe.",
+    "projectLanguage": ["React JS", "Node JS", "Express", "Mongoose", "MVC Architectuur"]
+  },
+  {
+    "projectId": 8,
+    "projectImage": "Projects/Panel.jpg",
+    "projectImage1": "Projects/Panel.jpg",
+    "projectName": "Panel | Laravel",
+    "projectLink": "/project/4",
+    "projectGithubLink": "https://github.com/Anthenny/panelLaravel",
+    "projectLiveLink": "",
+    "projectDescription": "In dit project heb ik een applicatie gemaakt voor een fictief restaurant. Op deze website kan de eigenaar informatie over zijn personeel en leveringen inzien. De applicatie is gemaakt met Laravel en mySQL.",
+    "projectLanguage": ["Laravel", "MySQL", "Blade", "MVC Architectuur"]
+  }
+]

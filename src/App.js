@@ -1,23 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects/Project";
+import Contact from "./components/Contact";
+import Navbar from "./components/navbar/Navbar";
+import ProjectSection from "./components/Projects/ProjectSection";
+
+import { Routes, Route } from "react-router-dom";
+import jsonData from "./json/data.json";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Main />
+              <AboutMe />
+              <Projects />
+              <Contact />
+            </>
+          }
+        />
+        {jsonData.map((project) => {
+          console.log(project);
+          return (
+            <Route
+              key={project.projectId}
+              path={project.projectLink}
+              element={
+                <ProjectSection
+                  projectImage={project.projectImage}
+                  projectImage1={project.projectImage1}
+                  projectName={project.projectName}
+                  projectGithubLink={project.projectGithubLink}
+                  projectDescription={project.projectDescription}
+                  projectLanguage={project.projectLanguage}
+                />
+              }
+            />
+          );
+        })}
+      </Routes>
     </div>
   );
 }
